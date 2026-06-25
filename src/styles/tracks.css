@@ -1,0 +1,33 @@
+.tracks {
+  background: white;
+
+  border-radius: 8px;
+  border: 1px solid #ddd;
+
+  padding: 2rem;
+
+  margin-bottom: 2rem;
+}
+
+.tracks-title {
+  margin-top: 0;
+}
+
+.tracks-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.tracks-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 1rem 0;
+
+  border-bottom: 1px solid #eee;
+}
+
+.tracks-row:last-child {
+  border-bottom: none;
+}

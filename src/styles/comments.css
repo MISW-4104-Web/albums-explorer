@@ -1,0 +1,46 @@
+.comments {
+  background: white;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  padding: 2rem;
+}
+
+.comments-row {
+  padding: 1rem 0;
+
+  border-bottom: 1px solid #eee;
+}
+
+.comments-rating {
+  font-weight: bold;
+
+  display: block;
+
+  margin-bottom: 0.5rem;
+}
+
+.comments-empty {
+  text-align: center;
+
+  padding: 2rem;
+
+  color: #666;
+}
+
+.new-comment {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+
+  background: white;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  padding: 2rem;
+
+  margin-top: 2rem;
+}

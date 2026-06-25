@@ -1,0 +1,38 @@
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1;
+
+  object-fit: cover;
+
+  border-radius: 4px;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-button {
+  margin-top: auto;
+
+  border: none;
+  border-radius: 4px;
+
+  background: #222;
+  color: white;
+
+  padding: 0.75rem;
+  cursor: pointer;
+}
